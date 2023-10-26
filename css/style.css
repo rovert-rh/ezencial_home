@@ -15,7 +15,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class^='heading-'] a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^='heading-'] a:hover {
-	color: #ee9f9f;
+	color: #acc932;
 }
 
 h1,
@@ -235,7 +235,7 @@ mark,
 .mark {
 	padding: 3px 5px;
 	color: #ffffff;
-	background: #ee9f9f;
+	background: #acc932;
 }
 
 .big {
@@ -300,11 +300,11 @@ a, a:focus, a:active, a:hover {
 }
 
 a, a:focus, a:active {
-	color: #ee9f9f;
+	color: #acc932;
 }
 
 a:hover {
-	color: #e25e5e;
+	color: #acc932;
 }
 
 a[href*='tel'], a[href*='mailto'] {
@@ -312,11 +312,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-hover {
-	color: #e25e5e;
+	color: #acc932;
 }
 
 .link-press {
-	color: #e25e5e;
+	color: #acc932;
 }
 
 .privacy-link {
@@ -353,7 +353,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .block-center:hover .block-center-header {
-	background-color: #ee9f9f;
+	background-color: #acc932;
 }
 
 .block-center-title {
@@ -368,7 +368,7 @@ a[href*='tel'], a[href*='mailto'] {
 		background-color: #ffffff;
 	}
 	.block-center-header {
-		background-color: #ee9f9f;
+		background-color: #acc932;
 	}
 }
 
@@ -387,7 +387,7 @@ a[href*='tel'], a[href*='mailto'] {
 .box-minimal .box-minimal-icon {
 	font-size: 50px;
 	line-height: 50px;
-	color: #ee9f9f;
+	color: #acc932;
 }
 
 .box-minimal-divider {
@@ -395,7 +395,7 @@ a[href*='tel'], a[href*='mailto'] {
 	height: 4px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #ee9f9f;
+	background: #acc932;
 }
 
 .box-minimal-title {
@@ -480,7 +480,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: inline-block;
 	width: 80px;
 	height: 2px;
-	background: #ee9f9f;
+	background: #acc932;
 }
 
 * + .box-counter-title {
@@ -554,8 +554,8 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-modern .icon-modern svg > * {
-	color: #ee9f9f;
-	fill: #ee9f9f;
+	color: #acc932;
+	fill: #acc932;
 }
 
 .box-icon-modern .divider:after {
@@ -641,7 +641,7 @@ a[href*='tel'], a[href*='mailto'] {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 90px;
-	color: #ee9f9f;
+	color: #acc932;
 }
 
 .box-icon-classic .icon-classic svg {
@@ -652,8 +652,8 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic .icon-classic svg > * {
-	color: #ee9f9f;
-	fill: #ee9f9f;
+	color: #acc932;
+	fill: #acc932;
 }
 
 .box-icon-classic .icon-classic-title {
@@ -769,7 +769,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-minimal-header svg > * {
-	fill: #ee9f9f;
+	fill: #acc932;
 }
 
 .box-icon-minimal-title {
@@ -786,7 +786,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-minimal-title a:hover {
-	color: #ee9f9f;
+	color: #acc932;
 }
 
 * + .box-icon-minimal-text {
