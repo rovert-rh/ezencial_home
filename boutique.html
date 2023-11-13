@@ -2,7 +2,7 @@
 <!-- Page Title--><!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Contacto - Ezencial</title>
+    <title>About</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/boutique.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -72,100 +73,135 @@
       </header>
       <section class="section-page-title" style="background-image: url(images/preloader-04.png); background-size: cover;">
         <div class="container">
-          <h1 class="page-title">Contactos</h1>
+          <h1 class="page-title">Boutique ZaZen</h1>
         </div>
       </section>
       <section class="breadcrumbs-custom">
         <div class="container">
           <ul class="breadcrumbs-custom-path">
-            <li><a href="index.html">Inicio</a></li>
-            <li class="active">Contactos</li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Boutique</li>
           </ul>
         </div>
       </section>
-      <!-- Mailform-->
-      <section class="section section-md">
-        <div class="container">
-          <div class="row row-50">
-            <div class="col-lg-8">
-              <div class="divider-lg"></div>
-              <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email. <br class="d-none d-lg-inline">You can also use a quick contact form below or visit our salon personally.</p>
-              <!-- RD Mailform-->
-              <form class="rd-mailform text-left rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                <div class="row row-30">
-                  <div class="col-sm-6">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-name">Nombre</label>
-                      <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-sec-name">Apellido</label>
-                      <input class="form-input" id="contact-sec-name" type="text" name="sec-name" data-constraints="@Required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-phone">Teléfono</label>
-                      <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-email">Correo Electronico</label>
-                      <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-message">Mensaje</label>
-                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-button group-sm text-left">
-                  <button class="button button-primary" type="submit">Enviar mensaje</button>
-                </div>
-              </form>
-            </div>
-            <div class="col-lg-4">
-              <ul class="contact-list">
-                <li>
-                  <p class="contact-list-title">Redes Sociales:</p>
-                  <div class="social-links text-center">
-                    <a href="https://www.facebook.com/saludezencial" class="social-icon fa fa-facebook"></a>
-                    <a href="https://www.tiktok.com/@saludezencial" class="social-icon fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/saludezencial/" class="social-icon fa fa-instagram"></a>
-                    </div>
-                </li>
-                <li> 
-                  <p class="contact-list-title">Dirección:</p>
-                  <div class="contact-list-content"><span class="icon mdi mdi-map-marker icon-primary"></span><a href="#">Primera Constituyente y Juan Montalvo, Riobamba, Ecuador</a></div>
-                </li>
-                <li>
-                  <p class="contact-list-title">Teléfono</p>
-                  <div class="contact-list-content"><span class="icon mdi mdi-phone icon-primary"></span><a href="tel:#">+593 99 407 1781</a></div>
-                </li>
-                <li>
-                  <p class="contact-list-title">Correo Electronico</p>
-                  <div class="contact-list-content"><span class="icon mdi mdi-email-outline icon-primary"></span><a href="mailto:#">Info@ezencial.com.ec</a></div>
-                </li>
-                <li>
-                  <p class="contact-list-title">Horario de Servicio</p>
-                  <div class="contact-list-content"><span class="icon mdi mdi-clock icon-primary"></span>
-                    <ul class="list-xs">
-                      <li>Lunes -Viernes: 10:00 - 13:00 – 15:00 - 19:00</li>
-                      <li>Sabado: 9:00 – 18:00</li>
-                      <li>Domingo: Cerrado</li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
+      <section class="cards">
+        <article class="card card--1">
+          <div class="card__info-hover">
+            
           </div>
-        </div>
-      </section>
+          <div class="card__img"></div>
+          <a href="#" class="card_link">
+             <div class="card__img--hover"></div>
+           </a>
+          <div class="card__info">
+            <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+            <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+          </div>
+        </article>
+          
+          
+        <article class="card card--2">
+          <div class="card__info-hover">
+            <svg class="card__like"  viewBox="0 0 24 24">
+            <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+            
+          </div>
+          <div class="card__img"></div>
+          <a href="#" class="card_link">
+             <div class="card__img--hover"></div>
+           </a>
+          <div class="card__info">
+            <span class="card__category"> Travel</span>
+            <h3 class="card__title">Discover the sea</h3>
+            <span class="card__by">by <a href="#" class="card__author" title="author">John Doe</a></span>
+          </div>
+        </article> 
+        <article class="card card--1">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article> 
+          <article class="card card--2">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article>
+          <article class="card card--1">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article>
+          <article class="card card--2">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article>
+          <article class="card card--2">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article>
+          <article class="card card--2">
+            <div class="card__info-hover">
+              
+            </div>
+            <div class="card__img"></div>
+            <a href="#" class="card_link">
+               <div class="card__img--hover"></div>
+             </a>
+            <div class="card__info">
+              <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+              <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+            </div>
+          </article>
+          
+          
+          
+          </section>
+    
+
+  </section>
       <!-- Page Footer-->
       <section class="bg-gray-100 section-xs text-center">
         <div class="container">
