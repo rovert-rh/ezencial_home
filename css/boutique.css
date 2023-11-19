@@ -1,60 +1,63 @@
 .cards {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 820px;
+  margin-top: 20px;
 }
 
 .card {
-  margin: 0 10px 20px;
-  width: calc(50% - 20px); /* Adjust width for two columns */
-  box-sizing: border-box;
+  margin: 10px;
+  max-width: calc(20% - 15px);
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+.card--1 .card__img,
+.card--1 .card__img--hover {
+  background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
 
-.card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+.card--2 .card__img,
+.card--2 .card__img--hover {
+  background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
 
 .card__like {
-    width: 18px;
+  width: 18px;
 }
 
 .card__clock {
-    width: 15px;
+  width: 15px;
   vertical-align: middle;
-    fill: #AD7D52;
+  fill: #AD7D52;
 }
+
 .card__time {
-    font-size: 12px;
-    color: #AD7D52;
-    vertical-align: middle;
-    margin-left: 5px;
+  font-size: 12px;
+  color: #AD7D52;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 .card__clock-info {
-    float: right;
+  float: right;
 }
 
 .card__img {
   visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
   border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-  
+  border-top-right-radius: 12px;
+
 }
 
 .card__info-hover {
-    position: absolute;
-    padding: 16px;
+  position: absolute;
+  padding: 16px;
   width: 100%;
   opacity: 0;
   top: 0;
@@ -62,68 +65,68 @@ border-top-right-radius: 12px;
 
 .card__img--hover {
   transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
   position: absolute;
-    height: 235px;
+  height: 235px;
   border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-top: 0;
-  
+  border-top-right-radius: 12px;
+  top: 0;
+
 }
+
 .card:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    transform: scale(1.10, 1.10);
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.10, 1.10);
 }
 
 .card__info {
-z-index: 2;
+  z-index: 2;
   background-color: #fff;
   border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
-   padding: 16px 24px 24px 24px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
 }
 
 .card__category {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 500;
+  font-family: 'BisbyCF', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
   color: #868686;
 }
 
 .card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'BisbyCF', sans-serif;
 }
 
 .card__by {
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+  font-size: 12px;
+  font-family: 'BisbyCF', sans-serif;
+  font-weight: 500;
 }
 
 .card__author {
-    font-weight: 600;
-    text-decoration: none;
-    color: #AD7D52;
+  font-weight: 600;
+  text-decoration: none;
+  color: #AD7D52;
 }
 
 .card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
+  height: 100%;
+  opacity: 0.3;
 }
 
 .card:hover .card__info {
-    background-color: transparent;
-    position: relative;
+  background-color: transparent;
+  position: relative;
 }
 
 .card:hover .card__info-hover {
-    opacity: 1;
+  opacity: 1;
 }
-
