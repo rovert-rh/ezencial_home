@@ -54,6 +54,10 @@ h1,
 	}
 }
 
+.page-title {
+	color: white;
+}
+
 h3,
 .heading-3 {
 	font-size: 24px;
@@ -977,7 +981,7 @@ a[href*='mailto'] {
 
 .box-video .button-play:hover:before,
 .box-video .button-play:focus:before {
-	color: #acc932;
+	color: #254C92;
 }
 
 .box-video-button {
@@ -1023,7 +1027,7 @@ a[href*='mailto'] {
 }
 
 .box-video-button .button-play:hover .icon {
-	color: #acc932;
+	color: #254C92;
 }
 
 .box-video-button .button-play:hover:before {
@@ -1092,7 +1096,7 @@ a[href*='mailto'] {
 	content: '+';
 	right: 11px;
 	bottom: 7px;
-	color: #acc932;
+	color: #254C92;
 	font-size: 28px;
 	line-height: 28px;
 	z-index: 1;
@@ -2349,12 +2353,12 @@ h1 .divider-lg {
 .button-default:hover,
 .button-default:active {
 	color: #ffffff;
-	background-color: #acc932;
-	border-color: #acc932;
+	background-color: #254C92;
+	border-color: #254C92;
 }
 
 .button-default.button-ujarak::before {
-	background: #acc932;
+	background: #254C92;
 }
 
 .button-gray-100,
@@ -2385,8 +2389,8 @@ h1 .divider-lg {
 .button-primary:hover,
 .button-primary:active {
 	color: #ffffff;
-	background-color: #2b2c2f;
-	border-color: #2b2c2f;
+	background-color: #254C92;
+	border-color: #254C92;
 }
 
 .button-primary.button-ujarak::before {
@@ -2403,12 +2407,12 @@ h1 .divider-lg {
 .button-default-outline:hover,
 .button-default-outline:active {
 	color: #ffffff;
-	background-color: #acc932;
-	border-color: #acc932;
+	background-color: #254C92;
+	border-color: #254C92;
 }
 
 .button-default-outline.button-ujarak::before {
-	background: #acc932;
+	background: #254C92;
 }
 
 .button-white,
@@ -4234,12 +4238,12 @@ textarea.form-input {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 14px;
-	line-height: 1.7;
+	font-size: 5px;
+	line-height: .5;
 }
 
 .breadcrumbs-custom-path li::after {
-	content: "";
+	content: ">";
 	font-family: 'BisbyCF', sans-serif;
 	position: absolute;
 	top: 52%;
@@ -4247,7 +4251,7 @@ textarea.form-input {
 	display: inline-block;
 	font-size: inherit;
 	font-style: normal;
-	color: #a1a1a1;
+	color: #254C92;
 	transform: translate3d(0, -50%, 0);
 }
 
@@ -4803,7 +4807,7 @@ html.boxed body {
 }
 
 .text-primary {
-	color: #acc932 !important;
+	color: #254C92 !important;
 }
 
 .text-gray-700 {
@@ -5190,6 +5194,7 @@ html [class*='section-'].section-bottom-0 {
 
 .section-page-title {
 	padding: 80px 0;
+
 }
 
 .section-filter-white {
@@ -14574,6 +14579,10 @@ html[class*="ie"] .dtp-hour-hand {
 .social-links a {
 	font-size: 30px;
 	margin: 3px 10px;
+}
+
+.social {
+	color: #254C92;
 }
 
 .footer-inf {

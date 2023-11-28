@@ -835,7 +835,7 @@
 		if (isDesktop && !isNoviBuilder) {
 			$().UItoTop({
 				easingType: 'easeOutQuad',
-				containerClass: 'ui-to-top fa fa-angle-up'
+				containerClass: 'ui-to-top bi bi-chevron-double-up'
 			});
 		}
 
@@ -1089,7 +1089,7 @@
 
 												setTimeout(function () {
 													output.removeClass("active");
-												}, 3500);
+												}, 1500);
 
 												captchaFlag = false;
 											} else {
@@ -1108,7 +1108,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Enviando</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -1122,7 +1122,7 @@
 						var output = $("#" + $(plugins.rdMailForm[this.extraData.counter]).attr("data-form-output")),
 							form = $(plugins.rdMailForm[this.extraData.counter]);
 
-						output.text(msg[result]);
+						output.text("Mensaje Enviado");
 						form.removeClass('form-in-process');
 
 						if (formHasCaptcha) {

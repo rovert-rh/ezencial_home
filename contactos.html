@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -68,7 +69,7 @@
           </nav>
         </div>
       </header>
-      <section class="section-page-title" style="background-image: url(images/preloader-04.png); background-size: cover;">
+      <section class="section-page-title" style="background-image: url(images/ezencialphotos/pila-piedras-fondo-borroso.jpg); background-size: cover;">
         <div class="container">
           <h1 class="page-title">Contacto</h1>
         </div>
@@ -88,9 +89,9 @@
             <div class="col-lg-8">
               <h1 class="heading-decorate" data-caption-animate="fadeInUp" data-caption-delay="100"></h1>
               <div class="divider-lg"></div>
-              <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email. <br class="d-none d-lg-inline">You can also use a quick contact form below or visit our salon personally.</p>
+              <p>¡Descubre la paz interior con nuestro exclusivo sitio zen! <br class="d-none d-lg-inline">Completa nuestro formulario y da el primer paso hacia la serenidad. 🌿✨</p>
               <!-- RD Mailform-->
-              <form class="rd-mailform text-left rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+              <form class="rd-mailform text-left rd-form" data-form-output="form-output-global" data-form-type="contact" action="https://formsubmit.co/robertoireyes.m@gmail.com" method="POST"">
                 <div class="row row-30">
                   <div class="col-sm-6">
                     <div class="form-wrap">
@@ -101,13 +102,13 @@
                   <div class="col-sm-6">
                     <div class="form-wrap">
                       <label class="form-label" for="contact-sec-name">Apellido</label>
-                      <input class="form-input" id="contact-sec-name" type="text" name="sec-name" data-constraints="@Required">
+                      <input class="form-input" id="contact-sec-name" type="text" name="apellido" data-constraints="@Required">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-wrap">
                       <label class="form-label" for="contact-phone">Teléfono</label>
-                      <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required">
+                      <input class="form-input" id="contact-phone" type="text" name="teléfono" data-constraints="@Numeric @Required">
                     </div>
                   </div>
                   <div class="col-sm-6">
@@ -119,13 +120,16 @@
                   <div class="col-12">
                     <div class="form-wrap">
                       <label class="form-label" for="contact-message">Mensaje</label>
-                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                      <textarea class="form-input" id="contact-message" name="mensaje" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="form-button group-sm text-left">
-                  <button class="button button-primary" type="submit">Enviar mensaje</button>
+                  <button class="button button-primary" type="submit" value="Enviar">Enviar mensaje</button>
                 </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://localhost:5500">
+                <input type="hidden" name="_template" value="table">
               </form>
             </div>
             <div class="col-lg-4">
@@ -133,25 +137,25 @@
                 <li>
                   <p class="contact-list-title">Redes Sociales:</p>
                   <div class="social-links text-center">
-                    <a href="https://www.facebook.com/saludezencial" class="social-icon fa fa-facebook"></a>
-                    <a href="https://www.tiktok.com/@saludezencial" class="social-icon fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/saludezencial/" class="social-icon fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/saludezencial"><i class="bi bi-facebook social"></i></a>
+                    <a href="https://www.tiktok.com/@saludezencial"><i class="bi bi-tiktok social"></i></a>
+                    <a href="https://www.instagram.com/saludezencial/"><i class="bi bi-instagram social"></i></a>
                     </div>
                 </li>
                 <li> 
-                  <p class="contact-list-title">Dirección:</p>
+                  <p class="contact-list-title social_t"><i class="bi bi-geo-alt social"></i> Dirección:</p>
                   <div class="contact-list-content"><span class="icon mdi mdi-map-marker icon-primary"></span><a href="https://maps.app.goo.gl/oQL5PkPoGzaAaGAS8">Primera Constituyente y Juan Montalvo, Riobamba, Ecuador</a></div>
                 </li>
                 <li>
-                  <p class="contact-list-title">Teléfono</p>
+                  <p class="contact-list-title"><i class="bi bi-telephone social"></i> Teléfono</p>
                   <div class="contact-list-content"><span class="icon mdi mdi-phone icon-primary"></span><a href="tel:593994071781">593 99 407 1781</a></div>
                 </li>
                 <li>
-                  <p class="contact-list-title">Correo Electronico</p>
+                  <p class="contact-list-title"><i class="bi bi-envelope social"></i> Correo Electronico</p>
                   <div class="contact-list-content"><span class="icon mdi mdi-email-outline icon-primary"></span><a href="mailto:info@ezencial.com.ec">info@ezencial.com.ec</a></div>
                 </li>
                 <li>
-                  <p class="contact-list-title">Horario de Servicio</p>
+                  <p class="contact-list-title"><i class="bi bi-alarm social"></i> Horario de Servicio</p>
                   <div class="contact-list-content"><span class="icon mdi mdi-clock icon-primary"></span>
                     <ul class="list-xs">
                       <li>Lunes -Viernes: 10:00 - 13:00 – 15:00 - 19:00</li>
