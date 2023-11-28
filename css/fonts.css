@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-Bold.otf') format('opentype');
-	font-weight: bold;
+	font-weight: normal;
 	font-style: bold;
 }
 
 @font-face {
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-BoldOblique.otf') format('opentype');
-	font-weight: bold;
+	font-weight: normal;
 	font-style: bold italic;
 }
 
@@ -22,8 +22,8 @@
 @font-face {
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-DemiBoldOblique.otf') format('opentype');
-	font-weight: DemiBold;
-	font-style: italic;
+	font-weight: normal;
+	font-style: oblique;
 }
 
 @font-face {
@@ -44,14 +44,14 @@
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-Heavy.otf') format('opentype');
 	font-weight: normal;
-	font-style: normal;
+	font-style: Heavy;
 }
 
 @font-face {
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-HeavyOblique.otf') format('opentype');
 	font-weight: bold;
-	font-style: normal;
+	font-style: oblique;
 }
 
 @font-face {
@@ -79,7 +79,7 @@
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-MediumOblique.otf') format('opentype');
 	font-weight: normal;
-	font-style: italic;
+	font-style: oblique;
 }
 
 @font-face {
@@ -92,8 +92,8 @@
 @font-face {
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-RegularOblique.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
+	font-weight: normal;
+	font-style: oblique;
 }
 
 @font-face {
@@ -107,7 +107,7 @@
 	font-family: 'BisbyCF';
 	src: url('/fonts/VisbyCF-ThinOblique.otf') format('opentype');
 	font-weight: normal;
-	font-style: italic;
+	font-style: oblique;
 }
 
 body {
