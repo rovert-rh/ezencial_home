@@ -12,7 +12,8 @@ h6,
 [class^='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-weight: 700;
+	font-weight: 400;
+	font-style: oblique;
 	color: #254C92;
 	font-family: 'BisbyCF', sans-serif;
 }
