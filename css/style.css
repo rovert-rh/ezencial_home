@@ -5195,6 +5195,11 @@ html [class*='section-'].section-bottom-0 {
 
 }
 
+.section-page-title-1 {
+	padding: 80px 0;
+
+}
+
 .section-filter-white {
 	position: relative;
 }
@@ -14645,7 +14650,7 @@ html[class*="ie"] .dtp-hour-hand {
 }
 
 .section-page-title {
-	background-image: url(../images/ezencialphotos/Banner.jpg);
+	background-image: url(../images/ezencialphotos/1.jpg);
 	background-size: cover;
 	position: relative;
 }
@@ -14662,6 +14667,31 @@ html[class*="ie"] .dtp-hour-hand {
 }
 
 .section-page-title div h1 {
+	color: #fff;
+	/* Color de texto blanco u otro color que desees para el h1 */
+	position: relative;
+	/* Cambia la posición para que z-index tenga efecto */
+	z-index: 2;
+}
+
+.section-page-title-1 {
+	background-image: url(../images/ezencialphotos/3.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.section-page-title-1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.section-page-title-1 div h1 {
 	color: #fff;
 	/* Color de texto blanco u otro color que desees para el h1 */
 	position: relative;
