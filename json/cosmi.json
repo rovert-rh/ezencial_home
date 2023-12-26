@@ -1,0 +1,47 @@
+[
+    {
+        "terapia": "Drenaje Linfático Facial",
+        "precio": "$25",
+        "duracion": "45 minutos"
+    },
+    {
+        "terapia": "Limpieza Facial Profunda",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Plasma Rico en Plaquetas Facial",
+        "precio": "$45",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Plasma Rico en Plaquetas Capilar",
+        "precio": "$35",
+        "duracion": "30 minutos"
+    },
+    {
+        "terapia": "Despigmentación del Rostro",
+        "precio": "$50",
+        "duracion": "90 minutos"
+    },
+    {
+        "terapia": "Ultra Hidratación Profunda del Rostro",
+        "precio": "$50",
+        "duracion": "90 minutos"
+    },
+    {
+        "terapia": "Reafirmación de la piel del Rostro y Cuello",
+        "precio": "$50",
+        "duracion": "90 minutos"
+    },
+    {
+        "terapia": "Well Aging",
+        "precio": "$50",
+        "duracion": "90 minutos"
+    },
+    {
+        "terapia": "Rejuvenecimiento Completo del Rostro",
+        "precio": "$100",
+        "duracion": "90 minutos"
+    }
+]

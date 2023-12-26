@@ -105,7 +105,6 @@
               </div>
             </div>
           </div>
-          <div class="col-12"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
         </div>
       </div>
     </section>
@@ -130,12 +129,26 @@
                       <h4 class="team-title"><a href="#">Tratamientos faciales</a></h4>
                     </div>
                   </div>
-                  <div class="team-minimal team-minimal-with-shadow">
-                    <figure><img src="images/ezencialphotos/portadacosmia.jpg" alt="" width="370" height="370"></figure>
+                  <div class="container">
+                    <h2>Terapias y Precios</h2>
+                    <div class="divider-lg"></div>
+                
+                    <div class="table-responsive">
+                      <table class="table table-bordered" id="tabla-cosmi">
+                        <thead>
+                          <tr>
+                            <th>Terapia</th>
+                            <th>Precio</th>
+                            <th>Duración</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
             </div>
           </div>
         </section>
@@ -153,20 +166,32 @@
           <div class="row row-40">
             <div class="col-12">
               <!-- Owl Carousel-->
-              <div class="owl-carousel carousel-creative" data-items="1" data-lg-items="2" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+              <div class="owl-carousel carousel-creative" data-items="1" data-lg-items="2" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-mouse-drag="false">
                 <div class="team-minimal team-minimal-with-shadow">
                   <figure><img src="images/ezencialphotos/massage.jpg" alt="" width="370" height="370"></figure>
                   <div class="team-minimal-caption">
                     <h4 class="team-title"><a href="#">Tratamientos faciales</a></h4>
                   </div>
                 </div>
-                <div class="team-minimal team-minimal-with-shadow">
-                  <figure><img src="images/ezencialphotos/portadabioenergia.png" alt="" width="370" height="370"></figure>
-                </div>
-              </div>
-            </div>
-            <div class="col-12"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
-          </div>
+                <section class="section section-md bg-default">
+                  <div class="container">
+                    <h2>Terapias y Precios</h2>
+                    <div class="divider-lg"></div>
+                
+                    <div class="table-responsive">
+                      <table class="table table-bordered" id="tabla-bioner">
+                        <thead>
+                          <tr>
+                            <th>Terapia</th>
+                            <th>Precio</th>
+                            <th>Duración</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
         </div>
       </section>
       <section class="section-page-title">
@@ -190,8 +215,23 @@
                     <h4 class="team-title"><a href="#">Tratamientos faciales</a></h4>
                   </div>
                 </div>
-                <div class="team-minimal team-minimal-with-shadow">
-                  <figure><img src="images/ezencialphotos/portadamaso.jpg" alt="" width="370" height="370"></figure>
+                <div class="container">
+                  <h2>Terapias y Precios</h2>
+                  <div class="divider-lg"></div>
+              
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="tabla-maso">
+                      <thead>
+                        <tr>
+                          <th>Terapia</th>
+                          <th>Precio</th>
+                          <th>Duración</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -213,6 +253,7 @@
                 <h2>Ezencial en la puerta de tu casa</h2>
                 <div class="divider-lg"></div>
                 <p class="big text-gray-800">Recibe todas las ventajas de la sueroterapia en la comodidad de tu hogar.</p>
+                <div class="col-12 mt-4"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
               </div>
             </div>
             <div class="col-lg-6">
@@ -221,7 +262,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-12"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
           </div>
           </div>
         </div>
@@ -239,6 +279,14 @@
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
+    <script src="js/tablaDinamica.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      cargarTablaDesdeJSON('json/bioner.json', 'tabla-bioner');
+      cargarTablaDesdeJSON('json/cosmi.json', 'tabla-cosmi');
+      cargarTablaDesdeJSON('json/maso.json', 'tabla-maso');
+      });
+    </script>
   </body>
 </html>

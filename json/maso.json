@@ -1,0 +1,42 @@
+[
+    {
+        "terapia": "Masaje Descontracturante Completo",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Masaje Descontracturante Parcial",
+        "precio": "$20",
+        "duracion": "40 minutos"
+    },
+    {
+        "terapia": "Masaje Relajante Completo",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Masaje Relajante Parcial",
+        "precio": "$20",
+        "duracion": "40 minutos"
+    },
+    {
+        "terapia": "Masaje Drenaje Linfático Completo",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Masaje Drenaje Linfático Zonal",
+        "precio": "$10",
+        "duracion": "30 minutos"
+    },
+    {
+        "terapia": "Masaje Antiestrés",
+        "precio": "$20",
+        "duracion": "30 minutos"
+    },
+    {
+        "terapia": "Fisioterapia",
+        "precio": "$10",
+        "duracion": "45 minutos"
+    }
+]

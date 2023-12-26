@@ -1,0 +1,42 @@
+[
+    {
+        "terapia": "Barras Access Consciousness",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Facelift Energético",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Cuencos Tibetanos",
+        "precio": "$30",
+        "duracion": "60 minutos"
+    },
+    {
+        "terapia": "Realineación Columna Vertebral",
+        "precio": "$20",
+        "duracion": "30 minutos"
+    },
+    {
+        "terapia": "Armonización Chakras",
+        "precio": "$20",
+        "duracion": "40 minutos"
+    },
+    {
+        "terapia": "Masaje Turquesas",
+        "precio": "$20",
+        "duracion": "40 minutos"
+    },
+    {
+        "terapia": "Biomagnetismo",
+        "precio": "$20",
+        "duracion": "40 minutos"
+    },
+    {
+        "terapia": "Liberación Emociones",
+        "precio": "$20",
+        "duracion": "30 minutos"
+    }
+]
