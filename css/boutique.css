@@ -1,15 +1,15 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 20px;
 }
 
 .card {
   margin: 10px;
-  max-width: calc(20% - 15px);
-  margin-right: 15px;
-  margin-left: 15px;
+  max-width: calc(20% - 15px); 
+  flex-basis: calc(100% - 20px);
+  box-sizing: border-box;
 }
 
 .card--1 .card__img,
@@ -139,4 +139,18 @@ card--4 .card__img,
 
 .card:hover .card__info-hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: calc(50% - 20px); 
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: calc(100% - 20px); 
+    flex-basis: calc(100% - 20px); 
+  }
 }
