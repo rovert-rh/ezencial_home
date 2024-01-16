@@ -93,11 +93,18 @@
           <div class="col-12">
             <!-- Owl Carousel-->
             <div class="owl-carousel carousel-creative" data-items="1" data-lg-items="2" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
-              <div class="team-minimal team-minimal-with-shadow">
-                <figure><img src="images/ezencialphotos/massage.jpg" alt="" width="370" height="370"></figure>
-                <div class="team-minimal-caption">
-                  <h4 class="team-title"><a href="#">Tratamientos faciales</a></h4>
-                </div>
+              <div class="table-responsive">
+                <table class="table table-bordered" id="tabla-suero">
+                  <thead>
+                    <tr>
+                      <th>Terapia</th>
+                      <th>Precio</th>
+                      <th>Duración</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
               </div>
               <div class="team-minimal team-minimal-with-shadow">
                 <figure><img src="images/ezencialphotos/portadaterapia.jpg" alt="" width="370" height="370"></figure>
@@ -166,29 +173,29 @@
             <div class="col-12">
               <!-- Owl Carousel-->
               <div class="owl-carousel carousel-creative" data-items="1" data-lg-items="2" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-mouse-drag="false">
-                <div class="team-minimal team-minimal-with-shadow">
-                  <figure><img src="images/ezencialphotos/portadabioenergia.png" alt="" width="370" height="370"></figure>
-                  <div class="team-minimal-caption">
-                    <h4 class="team-title"><a href="#">Bioenergética Integral</a></h4>
+                <div class="container">
+                  <h2>Terapias y Precios</h2>
+                  <div class="divider-lg"></div>
+              
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="tabla-bioner">
+                      <thead>
+                        <tr>
+                          <th>Terapia</th>
+                          <th>Precio</th>
+                          <th>Duración</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
                 <section class="section section-md bg-default">
-                  <div class="container">
-                    <h2>Terapias y Precios</h2>
-                    <div class="divider-lg"></div>
-                
-                    <div class="table-responsive">
-                      <table class="table table-bordered" id="tabla-bioner">
-                        <thead>
-                          <tr>
-                            <th>Terapia</th>
-                            <th>Precio</th>
-                            <th>Duración</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                      </table>
+                  <div class="team-minimal team-minimal-with-shadow">
+                    <figure><img src="images/ezencialphotos/portadabioenergia.png" alt="" width="370" height="370"></figure>
+                    <div class="team-minimal-caption">
+                      <h4 class="team-title"><a href="#">Bioenergética Integral</a></h4>
                     </div>
                   </div>
         </div>
@@ -285,6 +292,7 @@
       cargarTablaDesdeJSON('json/bioner.json', 'tabla-bioner');
       cargarTablaDesdeJSON('json/cosmi.json', 'tabla-cosmi');
       cargarTablaDesdeJSON('json/maso.json', 'tabla-maso');
+      cargarTablaDesdeJSON('json/suero.json', 'tabla-suero');
       });
     </script>
   </body>

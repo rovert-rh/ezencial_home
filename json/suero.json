@@ -1,0 +1,23 @@
+[
+    {
+      "terapia": "Estándar (7,5g de Ácido Ascórbico)",
+      "precio": "$30",
+      "duracion": "30 minutos"
+    },
+    {
+      "terapia": "Pro (12,5 g de Ácido Ascórbico)",
+      "precio": "$40",
+      "duracion": "45 minutos"
+    },
+    {
+      "terapia": "Xtreme (25g de Ácido Ascórbico)",
+      "precio": "$50",
+      "duracion": "45 minutos"
+    },
+    {
+      "terapia": "Ampollas Homeopáticas",
+      "precio": "$5 c/una",
+      "duracion": ""
+    }
+  ]
+  
