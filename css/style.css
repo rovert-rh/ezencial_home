@@ -6314,7 +6314,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span {
 	width: 24px;
 	height: 4px;
-	background-color: #151515;
+	background-color: #ffffff;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
@@ -7245,7 +7245,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #151515;
 	box-shadow: none;
-	background: #ffffff;
+	background: #000000;
 	border-bottom: 1px solid #eaeced;
 }
 
