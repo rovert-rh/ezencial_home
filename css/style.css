@@ -249,6 +249,9 @@ body {
 	.heading-decorate .divider {
 		display: inline-block;
 	}
+	.socios{
+		margin-top: 200px;
+	}
 }
 
 small,
@@ -665,6 +668,9 @@ a[href*='mailto'] {
 
 	.icon-modern-list>*:nth-child(n + 4) .box-icon-modern {
 		border-bottom: 1px solid transparent;
+	}
+	.socios{
+		margin-top: 200px;
 	}
 }
 
@@ -1169,6 +1175,7 @@ a[href*='mailto'] {
 
 .team-minimal.team-minimal-with-shadow figure {
 	display: inline-block;
+	border-radius: 175px;
 	box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
 }
 
@@ -14697,4 +14704,8 @@ html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 	/* Cambia la posición para que z-index tenga efecto */
 	z-index: 2;
+}
+
+.socios {
+	margin:auto;
 }
