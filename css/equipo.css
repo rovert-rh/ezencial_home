@@ -1,0 +1,20 @@
+.block-lg-equipo {
+    margin-right: auto;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+}
+
+.team-minimal {
+    text-align: center; /* Alinea el contenido del equipo al centro */
+}
+
+.team-minimal figure {
+    margin: 0; /* Elimina cualquier margen predeterminado */
+}

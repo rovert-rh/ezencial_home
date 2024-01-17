@@ -1,156 +1,20 @@
-.cards {
+.block-lg-equipo {
+  margin-right: auto;
+  text-align: left;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: flex-start;
+}
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
 }
 
-.card {
-  margin: 10px;
-  max-width: calc(20% - 15px); 
-  flex-basis: calc(100% - 20px);
-  box-sizing: border-box;
+.team-minimal {
+  text-align: center; /* Alinea el contenido del equipo al centro */
 }
 
-.card--1 .card__img,
-.card--1 .card__img--hover {
-  background-image: url('../images/Productos/PROBIOESSENS.jpg');
-}
-
-.card--2 .card__img,
-.card--2 .card__img--hover {
-  background-image: url('../images/Productos/Cold-pressed-blueberry-andino.png');
-}
-
-card--3 .card__img,
-.card--3 .card__img--hover {
-  background-image: url('../images/Productos/Bioflor-5-HTP.jpg');
-}
-
-card--4 .card__img,
-.card--4 .card__img--hover {
-  background-image: url('../images/Productos/10.png');
-}
-
-.card__like {
-  width: 18px;
-}
-
-.card__clock {
-  width: 15px;
-  vertical-align: middle;
-  fill: #AD7D52;
-}
-
-.card__time {
-  font-size: 12px;
-  color: #AD7D52;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
-.card__clock-info {
-  float: right;
-}
-
-.card__img {
-  visibility: hidden;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 235px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-
-}
-
-.card__info-hover {
-  position: absolute;
-  padding: 16px;
-  width: 100%;
-  opacity: 0;
-  top: 0;
-}
-
-.card__img--hover {
-  transition: 0.2s all ease-out;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: absolute;
-  height: 235px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  top: 0;
-
-}
-
-.card:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.10, 1.10);
-}
-
-.card__info {
-  z-index: 2;
-  background-color: #fff;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  padding: 16px 24px 24px 24px;
-}
-
-.card__category {
-  font-family: 'BisbyCF', sans-serif;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: #868686;
-}
-
-.card__title {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-family: 'BisbyCF', sans-serif;
-}
-
-.card__by {
-  font-size: 12px;
-  font-family: 'BisbyCF', sans-serif;
-  font-weight: 500;
-}
-
-.card__author {
-  font-weight: 600;
-  text-decoration: none;
-  color: #AD7D52;
-}
-
-.card:hover .card__img--hover {
-  height: 100%;
-  opacity: 0.3;
-}
-
-.card:hover .card__info {
-  background-color: transparent;
-  position: relative;
-}
-
-.card:hover .card__info-hover {
-  opacity: 1;
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    max-width: calc(50% - 20px); 
-    flex-basis: calc(50% - 20px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .card {
-    max-width: calc(100% - 20px); 
-    flex-basis: calc(100% - 20px); 
-  }
+.team-minimal figure {
+  margin: 0; /* Elimina cualquier margen predeterminado */
 }
