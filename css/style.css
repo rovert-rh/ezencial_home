@@ -6194,7 +6194,7 @@ html:not(.lt-ie10) .not-animated {
 	font-size: 20px;
 	line-height: 46px;
 	color: #ffffff;
-	background: #acc932;
+	background: #000000;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -11197,7 +11197,7 @@ yx-axis
 
 .carousel-creative .owl-dot.active,
 .carousel-creative .owl-dot:hover {
-	background: #acc932;
+	background: #000;
 }
 
 .carousel-corporate .owl-stage-outer {
