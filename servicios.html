@@ -13,7 +13,6 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/servicios.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
@@ -117,65 +116,76 @@
       <div class="container">
         <h2>Sueroterapia de Ezencial: Más Allá de un Tratamiento, una Experiencia de Transformación. </h2>
         <div class="divider-lg"></div>
-        <p class="block-lg-equipo">Nuestra fórmula de sueros va más allá de la administración de nutrientes esenciales;
-          es una
-          celebración de la salud en su máxima expresión. Es el arte de equilibrar mente, cuerpo y espíritu a través de
-          la poderosa conexión entre la ciencia y la naturaleza. </p>
-        <p>Imagina experimentar una cascada de vitalidad directamente en tus venas, cada gota llevando consigo el poder
-          antioxidante de la vitamina C, el impulso energético del complejo B y la renovación celular de minerales
-          esenciales. Esta fusión armoniosa trabaja en conjunto para proporcionar una experiencia única de
-          rejuvenecimiento desde el interior. </p>
-        <h3>La Sueroterapia de Ezencial es un viaje revitalizante hacia la salud integral. </h3>
-        <p class="block-lg-equipo">
-          En Ezencial, reconocemos que cada individuo es único. Por eso, nuestro enfoque de para la preparación de
-          sueros comienza con una evaluación personalizada de tus necesidades y metas de bienestar. Desde ahí, creamos
-          una experiencia única que resuena con tu ser, llevándote paso a paso hacia un estado de vitalidad óptima. <br>
-        </p>
-        <p class="block-lg-equipo">
-          Este no es solo un tratamiento; es una invitación a redescubrir la alegría de vivir con plenitud. Te damos la
-          bienvenida a un viaje donde la revitalización se encuentra con la personalización, y cada sesión es un paso
-          más hacia tu mejor versión. <br>
-        </p>
-        <p class="block-lg-equipo"><strong>En este viaje hacia el bienestar, no solo ofrecemos tratamientos; ofrecemos una
-          conexión única con tu propia vitalidad. </strong></p>
-        <h3>Vitamina C Intravenosa: La Esencia de la Vitalidad </h3>
-        <h4 class="h4equipo">Beneficios Exclusivos: </h4>
-        <p><strong>Poder Antioxidante: </strong>La vitamina C es un potente antioxidante que combate los radicales
-          libres, ayudando a rejuvenecer tu piel y a protegerte del envejecimiento prematuro. </p>
-        <p><strong>Estimulación Inmunológica: </strong>Refuerza tu sistema inmunológico con una dosis concentrada de
-          vitamina C, preparando a tu cuerpo para combatir enfermedades y mantenerse fuerte. </p>
-        <p><strong>Energía Duradera: </strong>Experimenta una energía sostenida gracias a la participación de la
-          vitamina C en la producción de energía celular. Despierta cada célula de tu cuerpo. </p>
-        <p><strong>Colágeno Radiante: </strong>Contribuye a la síntesis de colágeno, mejorando la elasticidad y la salud
-          general de tu piel, para un brillo natural y duradero. </p>
-        <p><strong>Equilibra el Organismo: </strong>La vitamina C es esencial para el funcionamiento óptimo del cuerpo.
-          Al administrarla directamente a través de un suero intravenoso, se asegura una absorción rápida y completa,
-          restableciendo el equilibrio en el organismo. </p>
-        <p><strong>Aumenta la Energía Vital: </strong>La vitamina C desempeña un papel crucial en la producción de
-          energía. Nuestro suero intravenoso proporciona un impulso instantáneo, aumentando la vitalidad y ayudando a
-          combatir la fatiga.</p>
-        <p><strong>Mejora la Absorción de Nutrientes: </strong>Al administrar la vitamina C de esta manera, garantizamos
-          una absorción eficiente, maximizando sus beneficios en comparación con suplementos orales. </p>
-        <h3>Nuestro Compromiso con la Calidad: </h3>
-        <p><strong>Formulación Personalizada: </strong>Adaptamos cada suero a tus necesidades específicas, garantizando una experiencia
-          única y efectiva. </p>
-        <p><strong>Supervisión Profesional: </strong>Nuestro equipo de expertos en salud administra cada sesión de sueroterapia,
-          asegurando la seguridad y eficacia del procedimiento. </p>
-        <p><strong>Resultados Visibles: </strong>Observa y siente la diferencia desde la primera sesión. Despierta con una piel radiante
-          y una energía que perdura. </p>
-        <h3>Ingredientes Principales: </h3>
-        <div class="block-lg-equipo">
-          <ul>
-            <li>Ácido Ascórbico (Vitamina C) </li>
-            <li>Cloruro de Sodio</li>
-            <li>Complejo B </li>
-            <li>Calcio </li>
-            <li>Impletol (procaína + cafeína) </li>
-          </ul>
+        <div id="descripcionSueroterapia">
+          <p class="block-lg-equipo">Nuestra fórmula de sueros va más allá de la administración de nutrientes esenciales;
+            es una celebración de la salud en su máxima expresión. Es el arte de equilibrar mente, cuerpo y espíritu a
+            través de la poderosa conexión entre la ciencia y la naturaleza.
+          </p>
+          <p>Imagina experimentar una cascada de vitalidad directamente en tus venas, cada gota llevando consigo el
+            poder antioxidante de la vitamina C, el impulso energético del complejo B y la renovación celular de minerales
+            esenciales. Esta fusión armoniosa trabaja en conjunto para proporcionar una experiencia única de rejuvenecimiento
+            desde el interior.
+          </p>
+          <!-- Botón "Mostrar más" -->
+          <button id="mostrarMasBtn" class="button button-default-outline">Mostrar más</button>
+  
+          <!-- Párrafos adicionales ocultos inicialmente -->
+          <div id="parrafosExtras" style="display: none;">
+            <h3>La Sueroterapia de Ezencial es un viaje revitalizante hacia la salud integral. </h3>
+            <p class="block-lg-equipo">
+              En Ezencial, reconocemos que cada individuo es único. Por eso, nuestro enfoque para la preparación de sueros
+              comienza con una evaluación personalizada de tus necesidades y metas de bienestar. Desde ahí, creamos una
+              experiencia única que resuena con tu ser, llevándote paso a paso hacia un estado de vitalidad óptima. <br>
+            </p>
+            <p class="block-lg-equipo">
+              Este no es solo un tratamiento; es una invitación a redescubrir la alegría de vivir con plenitud. Te damos
+              la bienvenida a un viaje donde la revitalización se encuentra con la personalización, y cada sesión es un paso
+              más hacia tu mejor versión. <br>
+            </p>
+            <p class="block-lg-equipo">
+              <strong>En este viaje hacia el bienestar, no solo ofrecemos tratamientos; ofrecemos una conexión única con tu
+                propia vitalidad. </strong>
+            </p>
+            <h3>Vitamina C Intravenosa: La Esencia de la Vitalidad </h3>
+            <h4 class="h4equipo">Beneficios Exclusivos: </h4>
+            <p><strong>Poder Antioxidante: </strong>La vitamina C es un potente antioxidante que combate los radicales
+              libres, ayudando a rejuvenecer tu piel y a protegerte del envejecimiento prematuro. </p>
+            <p><strong>Estimulación Inmunológica: </strong>Refuerza tu sistema inmunológico con una dosis concentrada de
+              vitamina C, preparando a tu cuerpo para combatir enfermedades y mantenerse fuerte. </p>
+            <p><strong>Energía Duradera: </strong>Experimenta una energía sostenida gracias a la participación de la vitamina
+              C en la producción de energía celular. Despierta cada célula de tu cuerpo. </p>
+            <p><strong>Colágeno Radiante: </strong>Contribuye a la síntesis de colágeno, mejorando la elasticidad y la salud
+              general de tu piel, para un brillo natural y duradero. </p>
+            <p><strong>Equilibra el Organismo: </strong>La vitamina C es esencial para el funcionamiento óptimo del cuerpo. Al
+              administrarla directamente a través de un suero intravenoso, se asegura una absorción rápida y completa,
+              restableciendo el equilibrio en el organismo. </p>
+            <p><strong>Aumenta la Energía Vital: </strong>La vitamina C desempeña un papel crucial en la producción de
+              energía. Nuestro suero intravenoso proporciona un impulso instantáneo, aumentando la vitalidad y ayudando a
+              combatir la fatiga.</p>
+            <p><strong>Mejora la Absorción de Nutrientes: </strong>Al administrar la vitamina C de esta manera, garantizamos
+              una absorción eficiente, maximizando sus beneficios en comparación con suplementos orales. </p>
+            <h3>Nuestro Compromiso con la Calidad: </h3>
+            <p><strong>Formulación Personalizada: </strong>Adaptamos cada suero a tus necesidades específicas, garantizando
+              una experiencia única y efectiva. </p>
+            <p><strong>Supervisión Profesional: </strong>Nuestro equipo de expertos en salud administra cada sesión de
+              sueroterapia, asegurando la seguridad y eficacia del procedimiento. </p>
+            <p><strong>Resultados Visibles: </strong>Observa y siente la diferencia desde la primera sesión. Despierta con una
+              piel radiante y una energía que perdura. </p>
+            <h3>Ingredientes Principales: </h3>
+            <div class="block-lg-equipo">
+              <ol>
+                <li>Ácido Ascórbico (Vitamina C) </li>
+                <li>Cloruro de Sodio</li>
+                <li>Complejo B </li>
+                <li>Calcio </li>
+                <li>Impletol (procaína + cafeína) </li>
+              </ol>
+            </div>
+            <h3>Modo de Aplicación: </h3>
+            <p>El suero de vitamina C se administra por vía intravenosa bajo la supervisión de profesionales de la salud. La
+              duración y la frecuencia del tratamiento se adaptan a las necesidades individuales de cada paciente. </p>
+          </div>
         </div>
-        <h3>Modo de Aplicación: </h3>
-        <p>El suero de vitamina C se administra por vía intravenosa bajo la supervisión de profesionales de la salud. La
-          duración y la frecuencia del tratamiento se adaptan a las necesidades individuales de cada paciente. </p>
         <div class="row row-40">
           <div class="col-12">
             <!-- Owl Carousel-->
@@ -390,8 +400,7 @@
               <h2>Ezencial en la puerta de tu casa</h2>
               <div class="divider-lg"></div>
               <p class="big text-gray-800">Recibe todas las ventajas de la sueroterapia en la comodidad de tu hogar.</p>
-              <div class="col-12 mt-4"><a class="button button-default-outline" onclick="enviarWhatsapp()">Solicita una
-                  consulta</a></div>
+              <button class="button button-default-outline" onclick="enviarWhatsapp()">Solicita una consulta</button>
             </div>
           </div>
           <div class="col-lg-6">
@@ -442,6 +451,12 @@
       window.location.href = url;
     }
   </Script>
+  <script>
+    document.getElementById("mostrarMasBtn").addEventListener("click", function () {
+      document.getElementById("parrafosExtras").style.display = "block";
+      this.style.display = "none"; // Oculta el botón después de hacer clic
+    });
+  </script>
 </body>
 
 </html>

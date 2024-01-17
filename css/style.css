@@ -160,15 +160,8 @@ p {
 	margin: 0;
 }
 
-ul,
-ol {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
 
-ul li,
-ol li {
+ul li {
 	display: block;
 }
 
@@ -985,7 +978,7 @@ a[href*='mailto'] {
 
 .box-video .button-play:hover:before,
 .box-video .button-play:focus:before {
-	color: #254C92;
+	color: #000;
 }
 
 .box-video-button {
@@ -1031,7 +1024,7 @@ a[href*='mailto'] {
 }
 
 .box-video-button .button-play:hover .icon {
-	color: #254C92;
+	color: #000;
 }
 
 .box-video-button .button-play:hover:before {
@@ -1100,7 +1093,7 @@ a[href*='mailto'] {
 	content: '+';
 	right: 11px;
 	bottom: 7px;
-	color: #254C92;
+	color: #000;
 	font-size: 28px;
 	line-height: 28px;
 	z-index: 1;
@@ -2092,7 +2085,7 @@ p+.list-marked {
 }
 
 .contact-list .contact-list-content a:hover {
-	color: #acc932;
+	color: #363333;
 }
 
 .contact-list *+.contact-list-content {
@@ -2316,6 +2309,7 @@ h1 .divider-lg {
 * Buttons
 */
 .button {
+	cursor: pointer;
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
@@ -2394,8 +2388,8 @@ h1 .divider-lg {
 .button-primary:hover,
 .button-primary:active {
 	color: #ffffff;
-	background-color: #254C92;
-	border-color: #254C92;
+	background-color: #000;
+	border-color: #000;
 }
 
 .button-primary.button-ujarak::before {
@@ -4256,7 +4250,7 @@ textarea.form-input {
 	display: inline-block;
 	font-size: inherit;
 	font-style: normal;
-	color: #254C92;
+	color: #000;
 	transform: translate3d(0, -50%, 0);
 }
 
@@ -6553,7 +6547,7 @@ html.tablet .ui-to-top {
 	visibility: hidden;
 	opacity: 0;
 	text-align: left;
-	border-top: 3px solid #254C92;
+	border-top: 3px solid #000;
 	transform: translate3d(0, 30px, 0);
 	box-shadow: 0 0 20px rgba(78, 78, 78, 0.16);
 }
@@ -6586,7 +6580,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-dropdown-item.focus .rd-dropdown-link,
 .rd-navbar-static .rd-dropdown-item.opened .rd-dropdown-link {
-	color: #254C92;
+	color: #000;
 }
 
 .rd-navbar-static .rd-dropdown-link {
@@ -6594,7 +6588,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-dropdown-link:hover {
-	color: #254C92;
+	color: #000;
 }
 
 .rd-navbar-static .rd-navbar-dropdown li>a,
@@ -6617,7 +6611,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-navbar-dropdown li>a:hover,
 .rd-navbar-static .rd-megamenu-list li>a:hover {
-	color: #254C92;
+	color: #000;
 }
 
 .rd-navbar-static .rd-navbar-dropdown li>a,
@@ -6637,7 +6631,7 @@ html.tablet .ui-to-top {
 	font-family: 'BisbyCF', sans-serif;
 	font-size: inherit;
 	line-height: inherit;
-	color: #254C92;
+	color: #000;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -6702,7 +6696,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-megamenu-list-link:hover {
-	color: #254C92;
+	color: #000;
 	background: transparent;
 }
 
@@ -6815,7 +6809,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-navbar-search-toggle:hover {
-	color: #254C92;
+	color: #000;
 }
 
 .rd-navbar-static.rd-navbar--is-clone {
@@ -14587,12 +14581,19 @@ html[class*="ie"] .dtp-hour-hand {
 }
 
 .social-links a {
-	font-size: 30px;
-	margin: 3px 10px;
-}
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 40px;
+	color: #000; /* Color de los iconos */
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+	transform: scale(1.2); /* Ajusta el valor según tus preferencias */
+  }
 
 .social {
-	color: #254C92;
+	color: #000;
 }
 
 .footer-inf {
@@ -14610,7 +14611,6 @@ html[class*="ie"] .dtp-hour-hand {
 .fo-img {
 	margin: 5% 0 0 0;
 }
-
 .button1 {
 	cursor: pointer;
 	position: relative;
@@ -14623,11 +14623,10 @@ html[class*="ie"] .dtp-hour-hand {
 	font-weight: 600;
 	transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
 	overflow: hidden;
-	margin-left: 20px;
-	/* Add left margin of 10px */
-}
-
-.button1::before {
+	margin-left: 20px; /* Agregar margen izquierdo de 20px */
+  }
+  
+  .button1::before {
 	content: '';
 	position: absolute;
 	inset: 0;
@@ -14638,23 +14637,43 @@ html[class*="ie"] .dtp-hour-hand {
 	scale: 0;
 	z-index: -1;
 	background-color: #ffffff;
-	transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.button1:hover::before {
-	scale: 4;
-}
-
-.button1:hover {
 	color: #000;
+	transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button1:hover::before {
+	scale: 4;
+	color: #000; /* Cambiar el color del texto a negro en hover */
+	background-color: #fff;
+  }
+  
+  .button1:hover {
+	color: #000; /* Cambiar el color del texto a negro en hover */
 	scale: 1.1;
 	box-shadow: 0 0px 20px #000;
-
-}
-
-.button1:active {
+  }
+  
+  .button1:active {
 	scale: 1;
-}
+  }
+  
+  .button1:hover a {
+	color: #000; /* Cambiar el color del enlace a negro en hover */
+  }
+  
+  .button-default-outline1,
+  .button-default-outline1:focus {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+  }
+  
+  .button-default-outline1:hover,
+  .button-default-outline1:active {
+	color: #000;
+	background-color: #fff;
+	border-color: #fff;
+  }
 
 .section-page-title {
 	background-image: url(../images/ezencialphotos/1.jpg);
@@ -14713,3 +14732,11 @@ html[class*="ie"] .dtp-hour-hand {
 	transform: scale(1.4);
 	transition: transform 0.5s ease-in-out;
 }
+.block-lg-equipo ol {
+	list-style-type: square; /* Puedes cambiar a 'circle', 'square', etc. según tus preferencias */
+	padding-left: 20px; /* Añade un espacio a la izquierda para la viñeta */
+  }
+  
+  .block-lg-equipo li {
+	margin-bottom: 5px; /* Agrega un espacio entre cada elemento de la lista */
+  }
