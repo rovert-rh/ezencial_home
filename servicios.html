@@ -259,7 +259,7 @@
                 <h2>Ezencial en la puerta de tu casa</h2>
                 <div class="divider-lg"></div>
                 <p class="big text-gray-800">Recibe todas las ventajas de la sueroterapia en la comodidad de tu hogar.</p>
-                <div class="col-12 mt-4"><a class="button button-default-outline" href="contactos.html">Solicita una consulta</a></div>
+                <div class="col-12 mt-4"><a class="button button-default-outline" onclick="enviarWhatsapp()">Solicita una consulta</a></div>
               </div>
             </div>
             <div class="col-lg-6">
@@ -295,5 +295,17 @@
       cargarTablaDesdeJSON('json/suero.json', 'tabla-suero');
       });
     </script>
+    <Script>
+       function enviarWhatsapp() {
+            // Número de teléfono de destino (puedes cambiarlo según tus necesidades)
+            var numeroTelefono = '+593 0987948924';
+
+            // Construye la URL de la API de WhatsApp con el número y un mensaje opcional
+            var url = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(numeroTelefono) + '&text=' + encodeURIComponent('Hola, estoy interesado en agendar una visia a mi casa');
+
+            // Redirige a la URL de la API de WhatsApp
+            window.location.href = url;
+        }
+    </Script>
   </body>
 </html>

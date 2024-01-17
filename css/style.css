@@ -14709,3 +14709,7 @@ html[class*="ie"] .dtp-hour-hand {
 .socios {
 	margin:auto;
 }
+.img-fluid:hover {
+	transform: scale(1.4);
+	transition: transform 0.5s ease-in-out;
+}
