@@ -6910,7 +6910,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap::-webkit-scrollbar-track {
-	background: #acc932;
+	background: #000000;
 	border: none;
 	border-radius: 0;
 }
@@ -7262,7 +7262,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-nav-item.active .rd-nav-link,
 .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #acc932;
+	background: #000000;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover>.rd-navbar-submenu-toggle,
@@ -7290,7 +7290,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-dropdown>li.active>a,
 .rd-navbar-fixed .rd-navbar-dropdown>li.opened>a {
 	color: #ffffff;
-	background: #acc932;
+	background: #000000;
 }
 
 .rd-navbar-fixed .rd-navbar-megamenu .rd-megamenu-title {
@@ -14740,4 +14740,20 @@ html[class*="ie"] .dtp-hour-hand {
   
   .block-lg-equipo li {
 	margin-bottom: 5px; /* Agrega un espacio entre cada elemento de la lista */
+  }
+  .form-input {
+    border: .5px solid #000000;
+  }
+  .form-label{
+	color: #3c3c3c;
+  }
+  @media (max-width: 765px) {
+	.infosec{
+		margin-bottom: 15%;
+	}
+  }
+
+  .dropdown-menu a:hover {
+	background-color: #000; /* Reemplaza "yourColor" con el color que desees */
+	color: #fff; /* Cambia el color del texto cuando se pasa el puntero */
   }
