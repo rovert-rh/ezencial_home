@@ -51,7 +51,7 @@ h1,
 	.heading-1 {
 		font-size: 60px;
 		line-height: 1.2;
-		font-weight: 700;
+		font-weight: 400;
 	}
 }
 
@@ -4208,7 +4208,7 @@ textarea.form-input {
 .breadcrumbs-custom {
 	position: relative;
 	padding: 25px 0;
-	background-color: #d8d8d8;
+	background-color: #000000;
 	background-position: center;
 }
 
@@ -4230,7 +4230,7 @@ textarea.form-input {
 .breadcrumbs-custom-path a,
 .breadcrumbs-custom-path a:active,
 .breadcrumbs-custom-path a:focus {
-	color: #acc932;
+	color: #ffffff;
 }
 
 .breadcrumbs-custom-path li {
@@ -4250,7 +4250,7 @@ textarea.form-input {
 	display: inline-block;
 	font-size: inherit;
 	font-style: normal;
-	color: #000;
+	color: #ffffff;
 	transform: translate3d(0, -50%, 0);
 }
 
@@ -4260,7 +4260,7 @@ textarea.form-input {
 
 .breadcrumbs-custom-path a:hover,
 .breadcrumbs-custom-path li.active {
-	color: #151515;
+	color: #b3afaf;
 }
 
 .breadcrumbs-custom-path li.active {
@@ -5563,7 +5563,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-100 {
-	background-color: #d8d8d8;
+	background-color: #ffffff;
 }
 
 .bg-gray-100+.bg-gray-100 {
@@ -5764,7 +5764,7 @@ p.rights a {
 }
 
 p.rights a:hover {
-	color: #acc932;
+	color: #EE738F;
 }
 
 [style*='z-index: 1000;'] {
@@ -6155,7 +6155,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 36px;
 	height: 36px;
 	margin: 0 auto;
-	border: 3px solid #acc932;
+	border: 3px solid #000000;
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -6536,7 +6536,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-link:hover {
-	color: #000000;
+	color: #868080;
 }
 
 .rd-navbar-static .rd-menu {
@@ -14624,6 +14624,7 @@ html[class*="ie"] .dtp-hour-hand {
 	transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
 	overflow: hidden;
 	margin-left: 20px; /* Agregar margen izquierdo de 20px */
+	margin-right: 10px;
   }
   
   .button1::before {

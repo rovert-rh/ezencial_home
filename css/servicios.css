@@ -12,6 +12,9 @@ p{
     text-align: left;
     justify-content: flex-start;
 }
+.rights{
+    text-align: center !important;
+}
 .h4equipo{
     margin-left: auto;
     margin-right: auto;
